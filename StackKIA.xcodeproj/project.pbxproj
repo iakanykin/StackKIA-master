@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F83E6632241209F00FF4703 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83E6622241209F00FF4703 /* DetailViewController.swift */; };
 		3FD3831822256EF60058EA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3831722256EF60058EA19 /* AppDelegate.swift */; };
 		3FD3831D22256EF60058EA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3831B22256EF60058EA19 /* Main.storyboard */; };
 		3FD3831F22256EF80058EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3831E22256EF80058EA19 /* Assets.xcassets */; };
 		3FD3832222256EF80058EA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD3832022256EF80058EA19 /* LaunchScreen.storyboard */; };
-		3FD3832A222575370058EA19 /* StackKIATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD38329222575370058EA19 /* StackKIATableViewController.swift */; };
-		3FD3832C222578AA0058EA19 /* StackKIAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3832B222578AA0058EA19 /* StackKIAModel.swift */; };
+		3FD3832A222575370058EA19 /* ReferenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD38329222575370058EA19 /* ReferenceTableViewController.swift */; };
+		3FD3832C222578AA0058EA19 /* ReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3832B222578AA0058EA19 /* ReferenceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F83E6622241209F00FF4703 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3FD3831422256EF60058EA19 /* StackKIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackKIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD3831722256EF60058EA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD3831C22256EF60058EA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FD3831E22256EF80058EA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FD3832122256EF80058EA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FD3832322256EF80058EA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FD38329222575370058EA19 /* StackKIATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackKIATableViewController.swift; sourceTree = "<group>"; };
-		3FD3832B222578AA0058EA19 /* StackKIAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackKIAModel.swift; sourceTree = "<group>"; };
+		3FD38329222575370058EA19 /* ReferenceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTableViewController.swift; sourceTree = "<group>"; };
+		3FD3832B222578AA0058EA19 /* ReferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F83E65E22411DFE00FF4703 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD3832B222578AA0058EA19 /* ReferenceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F83E65F22411E0C00FF4703 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FD3831B22256EF60058EA19 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F83E66022411E1100FF4703 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FD38329222575370058EA19 /* ReferenceTableViewController.swift */,
+				3F83E6622241209F00FF4703 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F83E66122411ED300FF4703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD3831722256EF60058EA19 /* AppDelegate.swift */,
+				3FD3831E22256EF80058EA19 /* Assets.xcassets */,
+				3FD3832022256EF80058EA19 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3FD3830B22256EF60058EA19 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +93,11 @@
 		3FD3831622256EF60058EA19 /* StackKIA */ = {
 			isa = PBXGroup;
 			children = (
-				3FD3831722256EF60058EA19 /* AppDelegate.swift */,
-				3FD3831B22256EF60058EA19 /* Main.storyboard */,
-				3FD38329222575370058EA19 /* StackKIATableViewController.swift */,
-				3FD3831E22256EF80058EA19 /* Assets.xcassets */,
-				3FD3832022256EF80058EA19 /* LaunchScreen.storyboard */,
 				3FD3832322256EF80058EA19 /* Info.plist */,
-				3FD3832B222578AA0058EA19 /* StackKIAModel.swift */,
+				3F83E65E22411DFE00FF4703 /* Model */,
+				3F83E65F22411E0C00FF4703 /* View */,
+				3F83E66022411E1100FF4703 /* Controller */,
+				3F83E66122411ED300FF4703 /* Supporting Files */,
 			);
 			path = StackKIA;
 			sourceTree = "<group>";
@@ -138,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD3832C222578AA0058EA19 /* StackKIAModel.swift in Sources */,
-				3FD3832A222575370058EA19 /* StackKIATableViewController.swift in Sources */,
+				3FD3832C222578AA0058EA19 /* ReferenceModel.swift in Sources */,
+				3FD3832A222575370058EA19 /* ReferenceTableViewController.swift in Sources */,
 				3FD3831822256EF60058EA19 /* AppDelegate.swift in Sources */,
+				3F83E6632241209F00FF4703 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
