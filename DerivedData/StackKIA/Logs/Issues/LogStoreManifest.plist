@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>F7894BE0-A02F-4226-81D5-35BA74C5CDF5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>F7894BE0-A02F-4226-81D5-35BA74C5CDF5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>StackKIA-dotenpyxzihzxjbriprqgefthzxf</string>
+			<key>timeStartedRecording</key>
+			<real>573481451.01187396</real>
+			<key>timeStoppedRecording</key>
+			<real>573481466.60868299</real>
+			<key>title</key>
+			<string>Build target StackKIA</string>
+			<key>uniqueIdentifier</key>
+			<string>F7894BE0-A02F-4226-81D5-35BA74C5CDF5</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

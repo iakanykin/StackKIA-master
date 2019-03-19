@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>1B67B3F1-7FBC-42AD-BDCA-9FC924651D9A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1B67B3F1-7FBC-42AD-BDCA-9FC924651D9A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StackKIA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StackKIA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build StackKIA</string>
+			<key>timeStartedRecording</key>
+			<real>572880863.505638</real>
+			<key>timeStoppedRecording</key>
+			<real>572880867.98624206</real>
+			<key>title</key>
+			<string>Build StackKIA</string>
+			<key>uniqueIdentifier</key>
+			<string>1B67B3F1-7FBC-42AD-BDCA-9FC924651D9A</string>
+		</dict>
+		<key>F8160782-29A2-4011-9AD5-0377A834503C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F8160782-29A2-4011-9AD5-0377A834503C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StackKIA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StackKIA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build StackKIA</string>
+			<key>timeStartedRecording</key>
+			<real>573481449.67964697</real>
+			<key>timeStoppedRecording</key>
+			<real>573481466.671615</real>
+			<key>title</key>
+			<string>Build StackKIA</string>
+			<key>uniqueIdentifier</key>
+			<string>F8160782-29A2-4011-9AD5-0377A834503C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
