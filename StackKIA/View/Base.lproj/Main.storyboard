@@ -46,7 +46,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="lbG-WD-uGg" kind="show" id="8Pk-Pn-1Vk"/>
+                                    <segue destination="lbG-WD-uGg" kind="show" identifier="DetailSegue" id="8Pk-Pn-1Vk"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -146,6 +146,11 @@
                             <outlet property="delegate" destination="lbG-WD-uGg" id="BJH-hj-zGd"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="detailLabel" destination="4Ij-cQ-qWY" id="YAx-Oq-hNM"/>
+                        <outlet property="imageView" destination="2xR-Ib-DV8" id="Ajw-XL-kih"/>
+                        <outlet property="titleLabel" destination="8Rz-zY-qau" id="eOS-u9-IOd"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyU-gq-aVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
